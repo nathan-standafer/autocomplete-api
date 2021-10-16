@@ -13,7 +13,7 @@ public class AutocompleteTitleController {
 
     @GetMapping("/autocomplete")
     public List<Title> autocomplete(@RequestParam(value = "searchString", required = true) String searchString,
-                                    @RequestParam(value = "startsWith", required = false, defaultValue = "false") Boolean startsWith) {
+                                    @RequestParam(value = "startsWith", required = false, defaultValue = "false") boolean startsWith) {
         return TitleDAO.getInstance().findMatches(searchString, startsWith);
     }
 
