@@ -35,3 +35,9 @@ curl localhost:8080/autocomplete?searchString=moon
 curl 'localhost:8080/autocomplete?searchString=Arriving&startsWith=true'
 ```
 
+## Testing the API
+Tests are ran automatically when maven performs a build.  Tests are located in src/test/java
+```
+mvn clean package
+```
+
