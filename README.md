@@ -1,5 +1,5 @@
 # autocomplete-api
-This is a basic API that can be used for an autocomplete function to return fictitious book titles that begin or contain a series of characters.  Retured results are not case sensitive.
+This is a basic API that can be used for an autocomplete function to return fictitious book titles that begin with or contain a series of characters.  Results are not case sensitive.
 
 ## Running the API
 After cloning the code to your machine, the server can be started in the following ways:
