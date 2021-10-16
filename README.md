@@ -28,9 +28,9 @@ docker run -p 8080:8080 autocomplete-api
 
 ## Calling the API
 The following examples can be used to call the API
-'''
+```
 curl localhost:8080/autocomplete?searchString=wife
 curl localhost:8080/autocomplete?searchString=moon
 curl 'localhost:8080/autocomplete?searchString=Arriving&startsWith=true'
-'''
+```
 
